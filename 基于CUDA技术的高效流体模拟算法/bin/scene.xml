@@ -1,0 +1,50 @@
+<Fluid>
+	<DT>			0.003		</DT>
+	<SimScale>		0.005		</SimScale>
+	<Viscosity>	4.0	</Viscosity>
+	<RestDensity>	1000.0		</RestDensity>
+	<Mass>		0.001953125	</Mass>
+	<Radius>		0.00775438		</Radius>
+	<IntStiff>		1000.0		</IntStiff>
+	<BoundStiff>	2.5	</BoundStiff>
+	<BoundDamp>	1.0		</BoundDamp>
+	<AccelLimit>	150.0		</AccelLimit>
+	<VelLimit>		3.0		</VelLimit>
+	<PointGravAmt>	0.0		</PointGravAmt>
+	<PointGravPos>	0,0,0		</PointGravPos>
+	<PlaneGravDir>	0,-9.8,0	</PlaneGravDir>
+	<GroundSlope>	0.0		</GroundSlope>
+	<WaveForceMin>	0.0		</WaveForceMin>
+	<WaveForceMax>	0.0		</WaveForceMax>
+</Fluid>
+<Scene id="0">
+	<Num>			8388608			</Num>
+	<VolMin>		-50, 0, -50	</VolMin>
+	<VolMax> 		50,  100, 50	</VolMax>
+	<InitMin>		6, 0, -50	</InitMin>
+	<InitMax> 	50,  38, 50	</InitMax>
+	<WaveForceFreq>	8.0		</WaveForceFreq>
+	<WaveForceMin>	0.0	</WaveForceMin>
+	<GroundSlope>	0.0		</GroundSlope>
+</Scene>
+<Scene id="1">
+	<Num>			8388608		</Num>
+	<VolMin>		-80, 0, -80	</VolMin>
+	<VolMax> 		80, 160, 80	</VolMax>
+	<InitMin>		-80, 0, -80	</InitMin>
+	<InitMax> 	80, 20, 80	</InitMax>
+	<WaveForceFreq>	8.0		</WaveForceFreq>
+	<WaveForceMin>	20.0		</WaveForceMin>
+	<GroundSlope>	0.10		</GroundSlope>
+</Scene>
+<Scene id="2">
+	<Num>			8388608			</Num>
+	<VolMin>		-80, 0, -80	</VolMin>
+	<VolMax> 		80, 160, 80	</VolMax>
+	<InitMin>		-80, 0, -80	</InitMin>
+	<InitMax> 	80, 60, 80	</InitMax>
+	<WaveForceFreq>	8.0		</WaveForceFreq>
+	<WaveForceMin>	20.0		</WaveForceMin>
+	<WaveForceMax>	20.0		</WaveForceMax>
+	<GroundSlope>	0.0		</GroundSlope>
+</Scene>
