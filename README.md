@@ -10,24 +10,22 @@ GPU Accelerated Incompressible Fluid Simulation for NVIDIA’s 2013/2014 CUDA Ca
 
 
 优酷视频连接：
-
     http://v.youku.com/v_show/id_XODIwMzI1MTQw.html?from=y1.7-1.2
 
     
 关于编译：
-
     编译代码需安装VC++2010 & CUDA Toolkit v5.5CUDA Toolkit，默认安装位置为C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5。
     编译后的可执行文件名为ISPH_NVIDIA_CUDA_CONTEST.exe，位于Release目录。
 
 
 关于程序参数修改：
-
     SPH模拟的稳定性对于物理参数以及时间步长的设置非常敏感，如需更改请设置在合理范围内，以免模拟程序运行出错（表现为粒子位置异常）。
     
     
 关于可执行文件：
-
-    可执行文件位于bin目录，请勿随意修改bin目录下相关依赖文件。本程序基于Visual C++ 2010 开发，若没有安装VC++2010，请双击bin目录下的vcredist_x86安装VC++2010运行库(X86)。请安装最新显卡驱动（包含nvcuda.dll），从而使用本程序。
+    可执行文件位于bin目录，请勿随意修改bin目录下相关依赖文件。
+    本程序基于Visual C++ 2010 开发，若没有安装VC++2010，请双击bin目录下的vcredist_x86安装VC++2010运行库(X86)。
+    请安装最新显卡驱动（包含nvcuda.dll），从而使用本程序。
     
 
 关于按键操作：
