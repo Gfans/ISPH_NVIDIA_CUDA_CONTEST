@@ -3,7 +3,6 @@ ISPH_NVIDIA_CUDA_CONTEST
 
 GPU Accelerated Incompressible Fluid Simulation for NVIDIA’s 2013/2014 CUDA Campus Programming Contest
 
-
 简介
 
 光滑粒子流体动力学（SPH）方法在物理引擎中已经有了广泛的应用，代表产品如 Nvidia PhysX。但是，SPH 方法的可压缩性严重影响了水等不可压缩流体的视觉效果。针对这一问题，本作品采用弱可压缩 SPH (WCSPH)方法 以及更高效的预测校正不可压缩 SPH （PCISPH）算法来模拟不可压缩流体，并利用 CUDA 技术对 WCSPH 和 PCISPH 进行并行优化，提高了流体的视觉真实感。与基于 CPU 的实现相比，基于 GPU 的流体模拟程序在性能上可以提升一个数量级。
@@ -22,7 +21,7 @@ B. Solenthaler, R. Pajarola. Predictive-corrective incompressible SPH[J]. ACM Tr
 
     
 关于编译：
-    编译代码需安装VC++2010 & CUDA Toolkit v5.5CUDA Toolkit，默认安装位置为C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5。
+    编译代码需安装VC++2010 & CUDA Toolkit v7.0 CUDA Toolkit，默认安装位置为C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0。
     编译后的可执行文件名为ISPH_NVIDIA_CUDA_CONTEST.exe，位于Release目录。
 
 
