@@ -4,9 +4,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ISPH_NVIDIA_CUDA_CONTEST", 
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{968E3E0D-22E5-4534-BEF1-E685F4BA81AE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{968E3E0D-22E5-4534-BEF1-E685F4BA81AE}.Debug|Win32.Build.0 = Debug|Win32
 		{968E3E0D-22E5-4534-BEF1-E685F4BA81AE}.Release|Win32.ActiveCfg = Release|Win32
 		{968E3E0D-22E5-4534-BEF1-E685F4BA81AE}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
