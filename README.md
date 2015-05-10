@@ -41,6 +41,6 @@ Note:
 The CUDA tookit has been upgraded from v5.5 to v7.0.
 
 
-About Compilation & parameter setting & Keyboard commands：
+About Compilation & Parameter Setting & Keyboard Commands：
 
 Please refer to the short documentation (Currently it's only written in Chinese)
