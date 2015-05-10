@@ -38,7 +38,7 @@ Windows 7 & Visual C++ 2010 & CUDA Toolkit v7.0 (The default CUDA toolkit instal
 
 Note:
 
-The CUDA tookit has been upgraded to v7.0 from v5.5.
+The CUDA tookit has been upgraded from v5.5 to v7.0.
 
 
 About Compilation & parameter setting & Keyboard commands：
