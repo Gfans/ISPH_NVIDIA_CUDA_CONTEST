@@ -34,7 +34,7 @@ Youku Link http://v.youku.com/v_show/id_XODIwMzI1MTQw.html?from=y1.7-1.2
     
 Development Environment：
 
-Windows 7 & Visual C++ 2010 & CUDA Toolkit v7.0 (The default CUDA toolkit installation location is C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0)。
+Windows 7 & Visual C++ 2010 & CUDA Toolkit v7.0 (The default CUDA toolkit installation location is C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0)
 
 Note:
 
